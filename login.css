@@ -1,0 +1,167 @@
+body{
+    font-family: "Montserrat", sans-serif;  
+    background :linear-gradient(to bottom,#3f3e3e,
+    #000000);
+    height: 100%;
+}
+
+.login{
+    display: grid;
+    justify-content: center;
+    background-color: #161616;
+    margin-top: 50px;
+    height: 650px;
+    width: 800px;
+    margin-left: 23%;
+    border-radius: 20px;
+}
+
+.login .yazi h2{
+    color:#ffffff;
+    margin-left: 23%;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffffff;
+    
+}
+.login .yazi img{
+  padding: 25px;
+  margin-left: 33%;
+  margin-bottom: -80px;
+  height: 100px;
+    
+    
+}
+.login .social-media {
+    display: grid;
+    justify-content: center;
+    margin-left: 8%;
+    
+}
+.login .social-media button{
+    background-color: #000000;
+    color: #ffffff;
+    border: 0.5px solid #b3b3b3;
+    border-radius: 50px;
+    width: 370px;
+    display: flex;
+    transition: all ease 0.4s;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+.login .social-media a{
+    text-decoration: none;
+    
+    
+}
+.login .social-media button p{
+    padding-left:  50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #b3b3b3;
+}
+.login .social-media img{
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 12px;
+}
+hr{
+    width: 550px;
+    color: #242323;
+    margin-top: 18px;
+    height: 0;
+}
+.login .social-media button:hover,
+.login .social-media button:active,
+.login .social-media button:focus{
+    border-color: #ffffff;
+}
+
+.login .posta{
+    display: grid;
+    align-items: center;
+    
+    
+    
+}
+.login .posta input{
+    margin-top: -28px;
+    margin-left: 23%;
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #7a7a7a;
+    font-size: 15px;
+    border: 1px solid #7a7a7a;
+
+
+
+}
+.login .posta h6{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 23%;
+    font-weight: 500;
+
+}
+.login .go{
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+        
+}
+
+.login .go button{
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom:  15px;
+    height: 45px;
+     width: 370px;
+    margin-left: 50px;
+    border-radius: 40px;
+    color: #000000;
+    background-color: #1db954;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    box-shadow: #b3b3b3;
+    cursor: pointer;
+}
+.login .go button:hover,
+.login .go button:active,
+.login .go button:focus{
+    width: 375px;
+    height: 49px;
+    background-color: #4bdf7f;
+
+}
+.kaydol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.kaydol p{
+    color: #7a7a7a;
+    font-weight: bold;
+    font-size: 13px;
+}
+.kaydol a{
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 8px;
+}
+.kaydol a:hover,
+.kaydol a:active,
+.kaydol a:focus{
+    color: #1db954;
+}

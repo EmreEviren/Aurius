@@ -1,0 +1,484 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #121212;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #000000;
+}
+
+.sidebar .logo img {
+    width: 180px;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.sidebar .navigation ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+    width: auto;
+}
+
+.sidebar .navigation li {
+    padding: 10px 20px;
+    margin-bottom: 0;
+}
+
+.sidebar .navigation a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    display: inline;
+    align-items: unset;
+    padding: 0;
+    border-radius: 0;
+    gap: 0;
+    background: none;
+    transition: none;
+}
+
+.sidebar .navigation a:hover,
+.sidebar .navigation a:active,
+.sidebar .navigation a:focus {
+    color: #ffffff;
+    background: none;
+}
+
+.sidebar .navigation .fa,
+.sidebar .navigation .fas {
+    background: none;
+    color: inherit;
+    border-radius: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: none;
+}
+
+.sidebar .navigation a:hover .fa,
+.sidebar .navigation a:focus .fa {
+    background: none;
+    color: #b3b3b3;
+}
+
+.sidebar .policies ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    width: auto;
+    text-align: left;
+}
+
+.sidebar .policies a {
+    color: #b3b3b3;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: none;
+}
+
+.sidebar .policies a:hover,
+.sidebar .policies a:active,
+.sidebar .policies a:focus {
+    text-decoration: underline;
+    color: #b3b3b3;
+}
+
+/* Eski sidebar stillerini geçersiz kılmak için ekler */
+.sidebar .navigation ul li {
+    padding: 10px 20px;
+}
+
+.sidebar .navigation ul li a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #b3b3b3;
+}
+
+.topbar img[alt="Aurius"] {
+    height: 40px;
+    margin-right: 24px;
+    vertical-align: middle;
+}
+
+.main-container {
+    margin-left: 198px;
+    margin-bottom: 100px;
+
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+    border-radius: 15px;
+}
+
+.topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+}
+
+.topbar-search {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 24px;
+}
+
+.topbar-search input[type="text"] {
+    width: 320px;
+    background: #232323;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.topbar-search input:hover,
+.topbar-search input:active,
+.topbar-search inpur:focus {
+    background: color #393939;
+    border-color: #fff;
+
+}
+
+.topbar .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .navbar ul {
+    list-style: none;
+}
+
+.topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+}
+
+.topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+}
+
+.topbar .navbar button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:focus {
+    background-color: #f2f2f2;
+}
+
+.spotify-list {
+
+    padding: 20px 40px;
+
+}
+
+.spotify-list2 {
+    padding: 20px 40px;
+}
+
+.spotify-list .baslik {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.spotify-list .baslik:hover,
+.spotify-list .baslik:active,
+.spotify-list .baslik:focus {
+    text-decoration: underline;
+}
+
+.spotify-list h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.spotify-list2 h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.spotify-list .list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.spotify-list2 .list {
+    display: flex;
+    gap: 28px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.spotify-list .list .item {
+    max-width: 190px;
+    width: 190px;
+    padding: 18px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.spotify-list2 .list .item {
+    max-width: 190px;
+    width: 190px;
+    padding: 18px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+@media screen {
+    .spotify-list .list .item {}
+
+}
+
+.spotify-list .list .item:hover {
+    background-color: #252525;
+}
+
+.spotify-list2 .list .item:hover {
+    background-color: #252525;
+}
+
+.spotify-list .list .item img {
+
+    width: 171px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.spotify-list2 .list .item img {
+    width: 171px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.spotify-list .list .item .play {
+    position: relative;
+
+}
+
+.spotify-list2 .list .item .play {
+    position: relative;
+}
+
+.spotify-list .list .item .play .fa {
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 15px;
+    background-color: #1db954;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.4s;
+
+}
+
+.spotify-list2 .list .item .play .fa {
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 15px;
+    background-color: #1db954;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+.spotify-list .list .item:hover .play .fa {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.spotify-list2 .list .item:hover .play .fa {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.spotify-list .list .item h4 {
+    color: #ffffff;
+}
+
+.spotify-list2 .list .item h4 {
+    color: #ffffff;
+}
+
+.spotify-list .list .item p {
+    color: #b3b3b3;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    display: inline-block;
+
+}
+
+.spotify-list2 .list .item p {
+    color: #b3b3b3;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.spotify-list .list .item .ad {
+    display: grid;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.spotify-list2 .list .item .ad {
+    display: grid;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.spotify-list .list .item .songer {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.spotify-list2 .list .item .songer {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.spotify-list .list .item a:hover,
+.spotify-list .list .item a:active,
+.spotify-list .list .item a:focus {
+    text-decoration: underline;
+}
+
+.spotify-list2 .list .item a:hover,
+.spotify-list2 .list .item a:active,
+.spotify-list2 .list .item a:focus {
+    text-decoration: underline;
+}
+
+.spotify-list hr {
+    margin: 70px 0px 0px;
+    border-color: #636363;
+}
+
+.spotify-list2 hr {
+    margin: 70px 0px 0px;
+    border-color: #636363;
+}
+
+.spotify-list .list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.spotify-list .list::-webkit-scrollbar {
+    display: none;
+}
+
+.site-footer {
+    width: 100%;
+    background: #121212;
+    color: #b3b3b3;
+    text-align: center;
+    padding: 18px 0 12px 0;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    border-top: 1px solid #232323;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.site-footer a {
+    color: #b3b3b3;
+    text-decoration: none;
+    margin: 0 6px;
+    transition: color 0.2s;
+}
+
+.site-footer a:hover {
+    color: #fff;
+}

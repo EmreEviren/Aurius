@@ -1,0 +1,168 @@
+body{
+    background-color: #121212;
+    font-family: "Montserrat", sans-serif;  
+}
+
+.yazi{
+    display: grid;
+    justify-content: center;
+    
+
+}
+.yazi img{
+    padding: 25px;
+    margin-bottom: -100px;
+    margin-top: -70px;
+    height: 150px;
+      
+      
+}
+.yaz{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+}
+.yaz span{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 45px;
+}
+.posta{
+    display: grid;
+    justify-content: center;
+    margin-left: 30px;
+}
+.posta h6{
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.posta input{
+    width: 320px;
+    height: 45px;
+    background-color: #121212;
+    color: #7a7a7a;
+    border: 0.5px solid #919191;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+}
+.go{
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+}
+.go button{
+    padding-top: 15px;
+    padding-bottom:  15px;
+    height: 45px;
+    margin-left: 28px;
+     width: 320px;
+    border-radius: 40px;
+    color: #000000;
+    background-color: #1db954;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    box-shadow: #b3b3b3;
+    cursor: pointer;
+}
+ .go button:hover,
+ .go button:active,
+ .go button:focus{
+    
+    background-color: #4bdf7f;
+
+}
+.line{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+   
+
+}
+.line hr{
+    width: 120px;
+    
+  
+}
+.line .left{
+    margin-right: 0;
+    margin-left: 40%;
+}
+.line .right{
+    margin-left: 26px;
+    margin-right: 0;
+}
+.line p{
+    color: #ffffff;
+    margin-left: 25px;
+    font-size: 15px;
+    
+}
+.social-media{
+    display: grid;
+    justify-content: center;
+    margin-left: 28px;
+}
+.social-media a{
+    text-decoration: none;
+}
+.social-media a button{
+    background-color: #151414;
+    border: 0.5px solid #b3b3b3;
+    border-radius: 50px;
+    width: 320px;
+    display: flex;
+    transition: all ease 0.4s;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+    
+}
+.social-media img{
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 12px;
+}
+.social-media a button p{
+    padding-left:  50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.social-media a button:hover,
+.social-media a button:active,
+.social-media a button:focus{
+   border-color:  #ffffff;
+}
+.alt{
+    width: 350px;
+    margin-left: 40%;
+    
+}
+.kaydol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+.kaydol p{
+    color: #b3b3b3;
+    font-weight: bold;
+    font-size: 13px;
+}
+.kaydol a{
+    color: #ffffff;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.kaydol a:hover,
+.kaydol a:active,
+.kaydol a:focus{
+    color: #1db954;
+}
